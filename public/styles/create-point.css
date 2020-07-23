@@ -2,7 +2,7 @@
     width: 90%;
     max-width: 1100px;
     /* alinhamento de caixa (pelo lado de fora da caixa) */
-    margin: 0 auto;
+    margin: 0 auto;    
 }
 
 #page-create-point header{
@@ -50,7 +50,6 @@ form h1{
 
 form fieldset{
     margin-top: 64px;
-
     border: 0;
 }
 
@@ -86,10 +85,10 @@ form .field-group{
 }
 
 form input,
-form select {
-    background-color: #f0f0f5;
+form select {    
+    background-color: #e2e2e7;    
+    border: 0;    
 
-    border: 0;
     padding: 16px 24px;
     font-size: 16px;
 
