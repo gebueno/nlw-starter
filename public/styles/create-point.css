@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;  
+}
+
 #page-create-point{
     width: 90%;
     max-width: 1100px;
@@ -34,15 +38,17 @@
 form{
 
     background-color: white;
-
-
+    
     margin: 80px auto;
     /* padding é o preenchimento, ou seja, é a parte em volta do conteúdo */
-    padding: 64px;
+    padding: 34px;
 
     border-radius: 8px;
 
-    max-width: 730px;
+    max-width: 630px;
+
+    box-sizing: border-box;
+    align-items: center;
 }
 form h1{
     font-size: 36px;    
@@ -50,7 +56,7 @@ form h1{
 
 form fieldset{
     margin-top: 64px;
-    border: 0;
+    border: 0;    
 }
 
 form legend{
@@ -123,13 +129,18 @@ form button {
 
     color: white;
     font-size: 16px;
-    
+
     border: 0;
     margin-top: 40px;
 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
     /* a transition define em quanto tempo as definições demoram para estarem
     prontas visivelmente. Pode-se definir exatamente o que sofrerá essa transição, no caso abaixo é o background-color */
-    transition: background-color 400ms;
+    transition: background-color 400ms;    
+    
 }
 
 /* o hover nesse caso é utilizado para mudar a cor do botão quando
@@ -140,7 +151,7 @@ form button:hover{
 .items-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 16px;
+    gap: 16px;    
 }
 
 .items-grid li {
